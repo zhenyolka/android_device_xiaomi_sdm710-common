@@ -25,6 +25,9 @@
 
 # FOD
 /sys/devices/platform/soc/soc:qcom,dsi-display@[0-9]+/fod_ui     u:object_r:sysfs_fod:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display@[0-9]+/dimlayer_hbm u:object_r:sysfs_dimming:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display@[0-9]+/dimlayer_bl u:object_r:sysfs_dimming:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display@[0-9]+/fod_hbm_en u:object_r:sysfs_dimming:s0
 
 # GPS devices
 /dev/bbd_control                              u:object_r:gps_device:s0
